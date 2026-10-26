@@ -1,0 +1,689 @@
+portfolio/
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[SEU NOME] - Edição de Vídeo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ==================== HERO SECTION ==================== -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>[SEU NOME] – Edição de Vídeo e Narrativa Visual</h1>
+            <p>Transformando imagens cruas em histórias envolventes. Especialista em ritmo, cor e storytelling.</p>
+            <a href="#showreel" class="btn btn-primary">Ver Meu Showreel</a>
+            <a href="#contato" class="btn btn-secondary">Fale Comigo</a>
+        </div>
+        <div class="hero-video-bg">
+            <!-- Substitua pelo seu vídeo de fundo -->
+            <video autoplay muted loop playsinline>
+                <source src="showreel/showreel-bg.mp4" type="video/mp4">
+            </video>
+        </div>
+    </header>
+
+    <!-- ==================== SOBRE MIM ==================== -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Atrás da Câmera</h2>
+            <p>
+                [EDITE: Escreva sua biografia aqui. Exemplo:]
+                Olá, sou [SEU NOME]. Sou editor de vídeo focado em contar histórias que prendem a atenção. 
+                Com [X] anos de experiência, trabalhei com projetos que vão desde vídeos institucionais 
+                e corporativos até produções criativas para redes sociais e cinema independente.
+            </p>
+            <p>
+                [EDITE: Continue com suas paixões e abordagem de edição:]
+                Minha paixão é encontrar o ritmo certo para cada projeto, garantindo que cada corte, 
+                transição e escolha de som contribua para a mensagem do vídeo. Acredito que um bom 
+                vídeo não é apenas sobre montar clipes, mas sobre guiar o olho e a emoção do espectador.
+            </p>
+        </div>
+    </section>
+
+    <!-- ==================== SHOWREEL PRINCIPAL ==================== -->
+    <section id="showreel" class="section section-dark">
+        <div class="container">
+            <h2>Meus Trabalhos</h2>
+            <p>Uma seleção dos meus cortes mais recentes.</p>
+            
+            <div class="showreel-container">
+                <iframe 
+                    src="https://youtube.com/embed/SEU_ID_AQUI" 
+                    title="Showreel Principal"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    class="showreel-iframe">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PROJETOS EM DESTAQUE ==================== -->
+    <section id="projetos" class="section">
+        <div class="container">
+            <h2>Projetos em Destaque</h2>
+            
+            <div class="projects-grid">
+                <!-- PROJETO 1 -->
+                <article class="project-card">
+                    <div class="project-thumbnail">
+                        <iframe 
+                            src="https://youtube.com/embed/PROJETO_1_ID"
+                            title="Projeto 1"
+                            frameborder="0"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="project-info">
+                        <h3>[NOME DO PROJETO 1]</h3>
+                        <p>[DESCRIÇÃO: Ex: Edição de vlog para marca de lifestyle]</p>
+                        <a href="https://youtube.com/watch?v=PROJETO_1_ID" target="_blank" class="btn btn-small">Ver Vídeo</a>
+                    </div>
+                </article>
+
+                <!-- PROJETO 2 -->
+                <article class="project-card">
+                    <div class="project-thumbnail">
+                        <iframe 
+                            src="https://youtube.com/embed/PROJETO_2_ID"
+                            title="Projeto 2"
+                            frameborder="0"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="project-info">
+                        <h3>[NOME DO PROJETO 2]</h3>
+                        <p>[DESCRIÇÃO: Ex: Comerciais para Instagram Reels]</p>
+                        <a href="https://youtube.com/watch?v=PROJETO_2_ID" target="_blank" class="btn btn-small">Ver Vídeo</a>
+                    </div>
+                </article>
+
+                <!-- PROJETO 3 -->
+                <article class="project-card">
+                    <div class="project-thumbnail">
+                        <iframe 
+                            src="https://youtube.com/embed/PROJETO_3_ID"
+                            title="Projeto 3"
+                            frameborder="0"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="project-info">
+                        <h3>[NOME DO PROJETO 3]</h3>
+                        <p>[DESCRIÇÃO: Ex: Documentário curto sobre sustentabilidade]</p>
+                        <a href="https://youtube.com/watch?v=PROJETO_3_ID" target="_blank" class="btn btn-small">Ver Vídeo</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SERVIÇOS ==================== -->
+    <section id="servicos" class="section section-dark">
+        <div class="container">
+            <h2>Como Posso Ajudar</h2>
+            <div class="services-list">
+                <div class="service-item">
+                    <h3>Edição de Vídeo</h3>
+                    <p>Corte, montagem e ritmo para YouTube, TV e Web.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Correção de Cor (Color Grading)</h3>
+                    <p>Ajuste profissional para garantir consistência e estética.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Motion Graphics Básicos</h3>
+                    <p>Inserção de gráficos, textos animados e transições.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Sound Design</h3>
+                    <p>Trilha sonora, efeitos sonoros e mixagem de áudio.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Reels & Shorts</h3>
+                    <p>Edição dinâmica focada em retenção para redes sociais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FERRAMENTAS ==================== -->
+    <section id="ferramentas" class="section">
+        <div class="container">
+            <h2>Meu Kit de Trabalho</h2>
+            
+            <div class="tools-grid">
+                <div class="tools-category">
+                    <h3>Software</h3>
+                    <ul>
+                        <li>Adobe Premiere Pro</li>
+                        <li>Adobe After Effects</li>
+                        <li>DaVinci Resolve</li>
+                        <li>Photoshop & Illustrator</li>
+                    </ul>
+                </div>
+                
+                <div class="tools-category">
+                    <h3>Competências</h3>
+                    <ul>
+                        <li>Storytelling Visual</li>
+                        <li>Gestão de Timeline Complexa</li>
+                        <li>Workflows de Arquivo</li>
+                        <li>Delivery em Múltiplas Plataformas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== DEPOIMENTOS ==================== -->
+    <section id="depoimentos" class="section section-dark">
+        <div class="container">
+            <h2>O que dizem meus clientes</h2>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-item">
+                    <p>"[EDITE: Adicione depoimento 1]" – [NOME DO CLIENTE]</p>
+                </div>
+                <div class="testimonial-item">
+                    <p>"[EDITE: Adicione depoimento 2]" – [NOME DO CLIENTE]</p>
+                </div>
+                <div class="testimonial-item">
+                    <p>"[EDITE: Adicione depoimento 3]" – [NOME DO CLIENTE]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTATO ==================== -->
+    <section id="contato" class="section">
+        <div class="container">
+            <h2>Vamos Criar Algo Juntos</h2>
+            <p>Tem um projeto em mente? Vamos conversar sobre como posso elevar o nível do seu vídeo.</p>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>WhatsApp</h3>
+                    <p><a href="https://wa.me/SEU_NUMERO" target="_blank">Link para WhatsApp</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://linkedin.com/in/SEU_PERFIL" target="_blank">Seu Perfil</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Vimeo</h3>
+                    <p><a href="https://vimeo.com/SEU_CANAL" target="_blank">Seu Canal</a></p>
+                </div>
+            </div>
+
+            <form id="contact-form" class="contact-form">
+                <input type="text" name="nome" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <input type="text" name="assunto" placeholder="Tipo de Projeto" required>
+                <textarea name="mensagem" rows="5" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ==================== RODAPÉ ==================== -->
+    <footer>
+        <div class="container">
+            <p>[SEU NOME] © 2024. Todos os direitos reservados.</p>
+            <nav class="footer-nav">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#projetos" class="nav-link">Portfólio</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+            <div class="social-links">
+                <a href="https://instagram.com/SEU_PERFIL" target="_blank" class="social-link">Instagram</a>
+                <a href="https://linkedin.com/in/SEU_PERFIL" target="_blank" class="social-link">LinkedIn</a>
+                <a href="https://vimeo.com/SEU_CANAL" target="_blank" class="social-link">Vimeo</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== SCRIPT ==================== -->
+    <script src="scripts.js"></script>
+</body>
+</html>
+/* ==================== RESET E VARIÁVEIS ==================== */
+:root {
+    --primary-color: #e63946;
+    --secondary-color: #457b9d;
+    --dark-color: #1d3557;
+    --light-color: #f1faee;
+    --gray-color: #6c757d;
+    --bg-color: #ffffff;
+    --text-color: #212529;
+    --font-primary: 'Inter', sans-serif;
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-primary);
+    color: var(--text-color);
+    line-height: 1.6;
+    background-color: var(--bg-color);
+}
+
+/* ==================== UTILITÁRIOS ==================== */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.section-dark {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+.section-dark h2,
+.section-dark p,
+.section-dark h3 {
+    color: var(--light-color);
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition);
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #d62828;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #3a6b8b;
+    transform: translateY(-2px);
+}
+
+.btn-small {
+    padding: 8px 20px;
+    font-size: 0.9rem;
+}
+
+/* ==================== HERO ==================== */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+.hero-video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    opacity: 0.4;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+/* ==================== SOBRE ==================== */
+#sobre h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--dark-color);
+}
+
+#sobre p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: var(--gray-color);
+}
+
+/* ==================== SHOWREEL ==================== */
+.showreel-container {
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.showreel-iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* ==================== PROJETOS ==================== */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.project-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: var(--transition);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.project-thumbnail {
+    position: relative;
+    padding-top: 56.25%;
+}
+
+.project-thumbnail iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-info h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: var(--dark-color);
+}
+
+.project-info p {
+    font-size: 0.95rem;
+    color: var(--gray-color);
+    margin-bottom: 15px;
+}
+
+/* ==================== SERVIÇOS ==================== */
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.service-item {
+    padding: 30px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.2);
+    transition: var(--transition);
+}
+
+.service-item:hover {
+    background: rgba(255,255,255,0.15);
+    transform: translateY(-3px);
+}
+
+.service-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 0.95rem;
+}
+
+/* ==================== FERRAMENTAS ==================== */
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.tools-category h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.tools-category ul {
+    list-style: none;
+}
+
+.tools-category li {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.tools-category li:last-child {
+    border-bottom: none;
+}
+
+/* ==================== DEPOIMENTOS ==================== */
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.testimonial-item {
+    padding: 25px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.testimonial-item p {
+    font-style: italic;
+    font-size: 1rem;
+}
+
+/* ==================== CONTATO ==================== */
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.contact-item h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.contact-item p a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+    max-width: 600px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 15px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1rem;
+    background: white;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.contact-form button {
+    grid-column: 1 / -1;
+    margin-top: 10px;
+}
+
+/* ==================== RODAPÉ ==================== */
+footer {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    padding: 60px 0 30px;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-nav a {
+    color: var(--light-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.footer-nav a:hover {
+    color: var(--primary-color);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-link {
+    color: var(--light-color);
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid var(--light-color);
+    border-radius: 5px;
+    transition: var(--transition);
+}
+
+.social-link:hover {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* ==================== RESPONSIVO ==================== */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+    
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .services-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .tools-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-form {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ==================== ANIMAÇÕES ==================== */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-content,
+.project-card,
+.service-item {
+    animation: fadeIn 0.8s ease forwards;
+}
+document.addEventListener('DOMContentLoaded', function() {
+    // Smooth scroll para links internos
